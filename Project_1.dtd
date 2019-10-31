@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!ELEMENT Agency_report (to, name, date, city,address, body, website)>
+<!ELEMENT to (#PCDATA) >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT date (#PCDATA) >
+<!ELEMENT city (#PCDATA) >
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT body (employee,employee,employee,employee,employee?,employee?,employee?, tour,tour,tour+, Finance_Report)>
+<!-- I dont know how to add 4-7 employees? Answer: use "?" -->
+<!ELEMENT website (#PCDATA) >
+<!ATTLIST date day (1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31) #REQUIRED>
+<!ATTLIST date month (January|February|March|April|May|June|July|August|September|October|November|December) #REQUIRED>
+
+<!ELEMENT Finance_Report (fullYear+,fullSeason+) >
+<!ELEMENT fullYear (trip*, income )>
+<!ELEMENT fullSeason (trip*, income )>
+<!ATTLIST fullSeason seasonName CDATA #IMPLIED>
+<!ELEMENT income (#PCDATA)>
+
+<!ELEMENT trip (customer,customer,customer+) >
+<!ATTLIST trip tripname IDREF #REQUIRED>
+<!-- I still do not know how to reference tour_name -->
+<!ELEMENT customer (name, age) >
+<!ATTLIST customer gender (male|female) #IMPLIED >
+
+<!ATTLIST fullSeason ticket_only CDATA #IMPLIED >
+<!ATTLIST fullYear ticket_only CDATA #IMPLIED >
+
+
+
+
+<!ELEMENT employee (name, age, salary)>
+<!-- name is defined at the beginning. Is that alright or do we need to repeat it? -->
+<!ELEMENT age (#PCDATA) >
+<!ELEMENT salary (#PCDATA) >
+
+<!ATTLIST employee tittle (officer|manager|clerck|secretary|tour_leader) "officer">
+<!ATTLIST employee staff_id ID #REQUIRED>
+
+<!ATTLIST salary mode (weekly|monthly) #REQUIRED >
+<!ATTLIST salary currency CDATA #FIXED "EUR">
+
+<!ELEMENT tour (destination, leader, leader?, price, date)>
+<!ATTLIST tour type (domestic|international) #REQUIRED >
+<!ATTLIST tour mode_transport (bus|cruise|air|train) #REQUIRED >
+<!ATTLIST tour tour_name ID #REQUIRED >
+
+<!ELEMENT destination (country, city)>
+<!ELEMENT country (#PCDATA) >
+<!ELEMENT leader (name) >
+<!ATTLIST leader leaderID IDREF #REQUIRED >
+<!-- IDREF says that there is a reference. Dont we need to add  what it is referrencing to? -->
+
+<!ELEMENT price (#PCDATA)>
+
+<!-- Entities list -->
+
+<!ENTITY total-tours "The total number of sold tour packages from our office has shown" >
+<!ENTITY website "www.myTravelAgency.org">
+<!ENTITY recipient "To whom it may concerns" >
+<!ENTITY sign "Your sincerely: Cork branch." >
+
+
+

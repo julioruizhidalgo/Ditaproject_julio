@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Agency_report SYSTEM "Project_1.dtd">
+
+<Agency_report>
+    <to>
+        &recipient;
+    </to>
+    <name></name>
+    <date day="1" month="January"></date>
+    <city></city>
+    <address></address>
+    <body>
+        <employee staff_id="mvs_zs4_jjb">
+            <name>Julio</name>
+            <age> 20</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <employee staff_id="ly5_ct4_jjb">
+            <name>Ana</name>
+            <age> 22</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <employee staff_id="tvv_2t4_jjb">
+            <name>Agustina</name>
+            <age> 25</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <employee staff_id="jb3_ht4_jjb">
+            <name>Felipa</name>
+            <age> 21</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <employee staff_id="ec1_jt4_jjb">
+            <name>Raimunda</name>
+            <age> 22</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <employee staff_id="fkj_lt4_jjb">
+            <name>Ofelio</name>
+            <age> 19</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <tour mode_transport="air" tour_name="bdv_h54_jjb" type="international">
+            <destination>
+                <country>Ireland</country>
+                <city>Dublin</city>
+            </destination>           
+            <leader leaderID="mvs_zs4_jjb">
+                <name>Julio</name>                          
+            </leader>
+            <price>10</price>
+            <date day="11" month="April"></date>
+        </tour>
+        <tour mode_transport="cruise" tour_name="kfs_l54_jjb" type="international">
+            <destination>
+                <country>France</country>
+                <city>Nize</city>
+            </destination>
+            <leader leaderID="mvs_zs4_jjb">
+                <name>Julio</name>
+             
+            </leader >
+            <leader leaderID="ly5_ct4_jjb">
+                <name>Ana</name>
+            </leader>
+            <price>1000</price>
+            <date day="12" month="July"></date>
+        </tour>
+        <tour mode_transport="bus" tour_name="cjq_dv4_jjb" type="domestic">
+            <destination>
+                <country>Spain</country>
+                <city>Aranjuez</city>
+            </destination>
+            <leader leaderID="ly5_ct4_jjb">
+                <name>Ana</name>
+            </leader>
+            <price>500</price>
+            <date day="10" month="April"></date>
+        </tour>
+        <tour mode_transport="train" tour_name="p2b_mv4_jjb" type="domestic">
+            <destination>
+                <country>Spain</country>
+                <city>Bilbao</city>
+            </destination>
+            <leader leaderID="ly5_ct4_jjb">
+                <name>Ana</name>
+            </leader>
+            <leader leaderID="mvs_zs4_jjb">
+                <name>Julio</name>
+            </leader>
+            <price>600</price>
+            <date day="15" month="November"></date>
+        </tour>
+        <Finance_Report>
+            <fullYear>
+                <trip tripname="bdv_h54_jjb">
+                    <customer>
+                        <name> Pepe</name>
+                        <age>30</age>
+                    </customer>
+                    <customer>
+                        <name>Pepa</name>
+                        <age>32</age>
+                    </customer>
+                    <customer>
+                        <name>Pepito</name>
+                        <age>15</age>
+                    </customer>
+                    <customer>
+                        <name>Pepita</name>
+                        <age>12</age>
+                    </customer>
+                </trip>
+                <trip tripname="bdv_h54_jjb">
+                    <customer>
+                        <name>Juan</name>
+                        <age>40</age>
+                    </customer>
+                    <customer>
+                        <name>Juana</name>
+                        <age>38</age>
+                    </customer>
+                    <customer>
+                        <name>Juanito</name>
+                        <age>20</age>
+                    </customer>
+                    <customer>
+                        <name>Juanita</name>
+                        <age>22</age>
+                    </customer>
+                </trip>
+                <income>xxxxxx</income>
+            </fullYear>
+            <fullSeason ticket_only="1">
+                <trip tripname="bdv_h54_jjb" >
+                    <customer gender="female">
+                        <name>Ana</name>
+                        <age>25</age>
+                    </customer>
+                    <customer gender="female">
+                        <name>Lucia</name>
+                        <age>25</age>
+                    </customer>
+                    <customer gender="female">
+                        <name>Valeria</name>
+                        <age>25</age>
+                    </customer>
+                    
+                </trip>
+                <income>XXXXXXXX</income>
+            </fullSeason>
+            <fullSeason>
+                <trip tripname="cjq_dv4_jjb">
+                    <customer>
+                        <name>Antonio</name>
+                        <age>34</age>
+                    </customer>
+                    <customer>
+                        <name>Alberto</name>
+                        <age>34</age>
+                    </customer>
+                    <customer>
+                        <name>Anna</name>
+                        <age>25</age>
+                    </customer>
+                    <customer>
+                        <name>Neto</name>
+                        <age>30</age>
+                    </customer>
+                </trip>
+                <trip tripname="cjq_dv4_jjb">
+                    <customer>
+                        <name>Maria</name>
+                        <age>50</age>
+                    </customer>
+                    <customer>
+                        <name>Felix</name>
+                        <age>49</age>
+                    </customer>
+                    <customer>
+                        <name>Santiaga</name>
+                        <age>52</age>
+                    </customer>
+                    <customer>
+                        <name>Neta</name>
+                        <age>55</age>
+                    </customer>
+                    
+                </trip>
+                <income>xxxxxxx</income>
+            </fullSeason>
+            <fullSeason seasonName="Winter" ticket_only="2">
+                <trip tripname="kfs_l54_jjb" >
+                    <customer>
+                        <name>Amaparo</name>
+                        <age>22</age>
+                    </customer>
+                    <customer>
+                        <name>Alexia</name>
+                        <age>25</age>
+                    </customer>
+                    <customer>
+                        <name>Lia</name>
+                        <age>30</age>
+                    </customer>
+                    <customer>
+                        <name>Lolo</name>
+                        <age>34</age>
+                    </customer>
+                    <customer>
+                        <name>Jose</name>
+                        <age>32</age>
+                    </customer>
+                   
+                </trip>
+                
+                <trip tripname="p2b_mv4_jjb">
+                    <customer>
+                        <name>Amaparo</name>
+                        <age>22</age>
+                    </customer>
+                    <customer>
+                        <name>Alexia</name>
+                        <age>25</age>
+                    </customer>
+                    <customer>
+                        <name>Lia</name>
+                        <age>30</age>
+                    </customer>
+                    <customer>
+                        <name>Lolo</name>
+                        <age>34</age>
+                    </customer>
+                    <customer>
+                        <name>Jose</name>
+                        <age>32</age>
+                    </customer>
+                </trip>
+                <income> xxxxxxx</income>
+                
+            </fullSeason>
+        </Finance_Report>
+    </body>
+    <website></website>
+    
+</Agency_report>

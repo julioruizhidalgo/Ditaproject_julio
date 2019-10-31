@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Agency_report SYSTEM "Project_1.dtd">
+
+<Agency_report>
+    <to></to>
+    <name></name>
+    <date day="4" month="January"></date>
+    <city>Barcelona</city>
+    <address>XXXXXX</address>
+    <body>
+        <employee staff_id="pnp_3fg_ljb">
+            <name>Julio</name>
+            <age>20</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <employee staff_id="it2_kfg_ljb">
+            <name>Victoria</name>
+            <age>22</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <employee staff_id="f3n_lfg_ljb">
+            <name>Luis</name>
+            <age></age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <employee staff_id="xhm_mfg_ljb">
+            <name>Angela</name>
+            <age>30</age>
+            <salary mode="monthly"></salary>
+        </employee>
+        <tour type="international" mode_transport="air" tour_name="t2x_wfg_ljb">
+            <destination>
+                <country>France</country>
+                <city>Montpelier</city>
+            </destination>
+            <leader leaderID="pnp_3fg_ljb">
+                <name>Julio</name>
+            </leader>
+            <price>100</price>
+            <date day="3" month="May"></date>
+        </tour>
+        <tour type="international" mode_transport="cruise" tour_name="oyd_zfg_ljb">
+            <destination>
+                <country>Spain</country>
+                <city>Ibiza</city>
+            </destination>
+            <leader leaderID="f3n_lfg_ljb">
+                <name>Luis</name>
+            </leader>
+            <price>2000</price>
+            <date day="7" month="August"></date>
+        </tour>
+        <tour type="international" mode_transport="air" tour_name="shd_2gg_ljb">
+            <destination>
+                <country>UK</country>
+                <city>London</city>
+            </destination>
+            <leader leaderID="xhm_mfg_ljb">
+                <name>Angela</name>
+            </leader>
+            <price>500</price>
+            <date day="10" month="October"></date>
+        </tour>
+        <tour type="domestic" mode_transport="train" tour_name="ir2_jgg_ljb">
+            <destination>
+                <country>Ireland</country>
+                <city>Dublin</city>
+            </destination>
+            <leader leaderID="f3n_lfg_ljb">
+                <name>Luis</name>
+            </leader>
+            <leader leaderID="it2_kfg_ljb">
+                <name>Victoria</name>
+            </leader>
+            <price>300</price>
+            <date day="7" month="February"></date>
+        </tour>
+        <tour type="domestic" mode_transport="bus" tour_name="bnv_pgg_ljb">
+            <destination>
+                <country>Northern Ireland</country>
+                <city>Belfast</city>
+            </destination>
+            <leader leaderID="xhm_mfg_ljb">
+                <name>Angela</name>
+            </leader>
+            <leader leaderID="it2_kfg_ljb">
+                <name>Victoria</name>
+            </leader>
+            <price>600</price>
+            <date day="8" month="April"></date>
+        </tour>
+        <Finance_Report>
+            <fullYear ticket_only="1">
+                <trip tripname="t2x_wfg_ljb">
+                    <customer>
+                        <name>Juana</name>
+                        <age>40</age>
+                    </customer>
+                    <customer>
+                        <name>Ana</name>
+                        <age>45</age>
+                    </customer>
+                    <customer>
+                        <name>Amelia</name>
+                        <age>44</age>
+                    </customer>
+                    <customer>
+                        <name>Antonia</name>
+                        <age>50</age>
+                    </customer>
+                </trip>
+                <income>xxxxxx</income>
+            </fullYear>
+            <fullYear>
+                <trip tripname="bnv_pgg_ljb">
+                    <customer>
+                        <name>Alfonsa</name>
+                        <age>18</age>
+                    </customer>
+                    <customer>
+                        <name>Santiaga</name>
+                        <age>18</age>
+                    </customer>
+                    <customer>
+                        <name>Rogelia</name>
+                        <age>19</age>
+                    </customer>
+                </trip>
+                <trip tripname="shd_2gg_ljb">
+                    <customer>
+                        <name>Lolo</name>
+                        <age>25</age>
+                    </customer>
+                    <customer>
+                        <name>Lola</name>
+                        <age>23</age>
+                    </customer>
+                    <customer>
+                        <name>Lulu</name>
+                        <age>30</age>
+                    </customer>
+                </trip>
+                <income></income>
+            </fullYear>
+            <fullSeason seasonName="Spring">
+                <trip tripname="shd_2gg_ljb">
+                    <customer>
+                        <name>Coco</name>
+                        <age>20</age>
+                    </customer>
+                    <customer>
+                        <name>Pepe</name>
+                        <age>20</age>
+                    </customer>
+                    <customer>
+                        <name>Paco</name>
+                        <age>20</age>
+                    </customer>
+                    <customer>
+                        <name>Lola</name>
+                        <age>20</age>
+                    </customer>
+                </trip>
+                <trip tripname="bnv_pgg_ljb">
+                    <customer>
+                        <name>Coco</name>
+                        <age>20</age>
+                    </customer>
+                    <customer>
+                        <name>Paco</name>
+                        <age>26</age>
+                    </customer>
+                    <customer>
+                        <name>Manu</name>
+                        <age>30</age>
+                    </customer>
+                    <customer>
+                        <name>Lola</name>
+                        <age>20</age>
+                    </customer>
+                </trip>
+                <trip tripname="ir2_jgg_ljb">
+                    <customer>
+                        <name>Juan</name>
+                        <age>30</age>
+                    </customer>
+                    <customer>
+                        <name>Juana</name>
+                        <age>32</age>
+                    </customer>
+                    <customer>
+                        <name>Juanloa</name>
+                        <age>23</age>
+                    </customer>
+                    <customer>
+                        <name>Lola</name>
+                        <age>20</age>
+                    </customer>
+                </trip>
+                
+                <income>XXXXXXXX</income>
+            </fullSeason>
+        </Finance_Report>
+    </body>
+    <website>&website;</website>
+</Agency_report>
